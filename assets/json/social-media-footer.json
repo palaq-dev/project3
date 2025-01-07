@@ -1,24 +1,28 @@
 [
     {
-        "id": "facebook",
+        "id": 1,
+        "class" : "text-primary",
         "href": "https://www.facebook.com/",
         "text": "Facebook",
         "icon": "fab fa-facebook-f fa-lg"
     },
     {
-        "id": "twitter",
+        "id": 2,
+        "class" : "text-info",
         "href": "https://www.twitter.com/",
         "text": "Twitter",
         "icon": "fab fa-twitter fa-lg"
     },
     {
-        "id": "google",
+        "id": 3,
+        "class" : "text-warning",
         "href": "https://www.google.com/",
         "text": "Google",
         "icon": "fab fa-google fa-lg"
     },
     {
-        "id": "instagram",
+        "id": 4,
+        "class" : "text-danger",
         "href": "https://www.instagram.com/",
         "text": "Instagram",
         "icon": "fab fa-instagram fa-lg"

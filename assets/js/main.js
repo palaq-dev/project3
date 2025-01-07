@@ -22,11 +22,11 @@ window.addEventListener('load', function () {
         opacity: '1'
     }, 1000);
 
-    if (window.location.pathname.endsWith("order-items.html")) {
+    if (window.location.pathname == "/order-items.html" || window.location.pathname == "/order-items") {
         fetchData("products", populateCart);
     }
 
-    if (window.location.pathname.endsWith("index.html") || window.location.pathname.endsWith("/")) {
+    if (window.location.pathname == "/index.html" || window.location.pathname == "/") {
         let showSuccessfullOrderModal = localStorage.getItem('showSuccessfullOrderModal');
         if (showSuccessfullOrderModal) {
             $('#orderSuccessfullyCreatedModal').modal('show');
@@ -37,7 +37,7 @@ window.addEventListener('load', function () {
         fetchData("testimonials", populateReviews);
     }
 
-    if (window.location.pathname.endsWith("shop.html")) {
+    if (window.location.pathname == "/shop.html" || window.location.pathname == "/shop") {
         fetchData("products", populateShop);
     }
 
@@ -61,7 +61,7 @@ window.addEventListener('load', function () {
 // Ova funkcija koristi AJAX zahtev kako bi dobavila podatke iz JSON fajla na serveru
 function fetchData(fileName, callback) {
     $.ajax({
-        url: "./assets/json/" + fileName + ".json",
+        url: "assets/json/" + fileName + ".json",
         method: "get",
         datatype: "json",
         success: function (data) {
