@@ -313,5 +313,5 @@ function populateModal(orderButtonDisplay, modalTitle, modalBody) {
 function order() {
     localStorage.removeItem("cart");
     localStorage.setItem('showSuccessfullOrderModal', 'true');
-    window.location.href = "/";
+    window.location.href = "/index.html";
 }
