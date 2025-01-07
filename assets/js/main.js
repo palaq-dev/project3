@@ -25,15 +25,15 @@ window.addEventListener('load', function () {
         fetchData("products", populateCart)
     }
 
-    if (window.location.pathname == "index.html" || window.location.pathname == "/") {
+    if (window.location.pathname == "/index.html" || window.location.pathname == "/") {
         fetchData("slider", populateSlider);
     }
 
-    if (window.location.pathname == "index.html" || window.location.pathname == "/") {
+    if (window.location.pathname == "/index.html" || window.location.pathname == "/") {
         fetchData("testimonials", populateReviews)
     }
 
-    if (window.location.pathname == "shop.html") {
+    if (window.location.pathname == "/shop.html") {
         fetchData("products", popuniShop)
     }
 
