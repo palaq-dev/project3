@@ -13,14 +13,14 @@
 }
 
 .navbar {
-  background-image: url(/assets/images/background4.jpg);
+  background-image: url(assets/images/background4.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 body {
-  background-image: url(/assets/images/background3.jpg);
+  background-image: url(assets/images/background3.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -38,7 +38,7 @@ body {
 }
 
 #jumbotron {
-  background-image: url('/assets/images/background.jpg');
+  background-image: url(assets/images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
