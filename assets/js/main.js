@@ -21,19 +21,19 @@ window.addEventListener('load', function () {
         opacity: '1'
     }, 1000);
 
-    if (window.location.pathname == "/order-items.html") {
+    if (window.location.pathname.endsWith("/order-items.html")) {
         fetchData("products", populateCart)
     }
 
-    if (window.location.pathname == "/index.html" || window.location.pathname == "/") {
+    if (window.location.pathname.endsWith("/index.html") || window.location.pathname.endsWith("/")) {
         fetchData("slider", populateSlider);
     }
 
-    if (window.location.pathname == "/index.html" || window.location.pathname == "/") {
+    if (window.location.pathname.endsWith("/index.html") || window.location.pathname.endsWith("/")) {
         fetchData("testimonials", populateReviews)
     }
 
-    if (window.location.pathname == "/shop.html") {
+    if (window.location.pathname.endsWith("shop.html")) {
         fetchData("products", popuniShop)
     }
 
