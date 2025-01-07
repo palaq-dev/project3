@@ -61,7 +61,7 @@ window.addEventListener('load', function () {
 // Ova funkcija koristi AJAX zahtev kako bi dobavila podatke iz JSON fajla na serveru
 function fetchData(fileName, callback) {
     $.ajax({
-        url: "assets/json/" + fileName + ".json",
+        url: "./assets/json/" + fileName + ".json",
         method: "get",
         datatype: "json",
         success: function (data) {
