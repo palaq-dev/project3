@@ -1,17 +1,17 @@
 [
     {
         "id": 1,
-        "src": "/assets/images/slider1.png",
+        "src": "assets/images/slider1.png",
         "alt": "slide1"
     },
     {
         "id": 2,
-        "src": "/assets/images/slider2.png",
+        "src": "assets/images/slider2.png",
         "alt": "slide2"
     },
     {
         "id": 3,
-        "src": "/assets/images/slider3.png",
+        "src": "assets/images/slider3.png",
         "alt": "slide3"
     }
 ]

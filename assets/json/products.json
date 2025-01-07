@@ -3,7 +3,7 @@
         "id": 1,
         "title": "24/7 Places Spiral Notebook",
         "category": "Accessories",
-        "image": "/assets/images/Product1.png",
+        "image": "assets/images/Product1.png",
         "price": "20.00",
         "link": "order-items.html"
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "title": "Tasty Food Clock",
         "category": "Accessories",
-        "image": "/assets/images/Product2.png",
+        "image": "assets/images/Product2.png",
         "price": "18.00",
         "oldPrice": "20.00",
         "link": "order-items.html",
@@ -22,7 +22,7 @@
         "title": "Cat-A-Bunga Coasters",
         "category": "Accessories",
         "badge": "Sale",
-        "image": "/assets/images/Product3.png",
+        "image": "assets/images/Product3.png",
         "price": "25.00",
         "oldPrice": "50.00",
         "link": "order-items.html"
@@ -31,7 +31,7 @@
         "id": 4,
         "title": "Crying Dog Classic T-shirt",
         "category": "Clothing",
-        "image": "/assets/images/Product4.png",
+        "image": "assets/images/Product4.png",
         "price": "40.00",
         "link": "order-items.html",
         "rating": "4"
@@ -41,7 +41,7 @@
         "title": "Gray Cat Baseball Cap",
         "category": "Clothing",
         "badge": "Sale",
-        "image": "/assets/images/Product5.png",
+        "image": "assets/images/Product5.png",
         "price": "25.00",
         "oldPrice": "30.00",
         "link": "order-items.html"
@@ -50,7 +50,7 @@
         "id": 6,
         "title": "Happy Mushroom Mug",
         "category": "Accessories",
-        "image": "/assets/images/Product6.png",
+        "image": "assets/images/Product6.png",
         "price": "15.00",
         "link": "order-items.html"
     },
@@ -59,7 +59,7 @@
         "title": "Heart & Brain Mouse Pad",
         "category": "Accessories",
         "badge": "Sale",
-        "image": "/assets/images/Product7.png",
+        "image": "assets/images/Product7.png",
         "price": "18.00",
         "oldPrice": "20.00",
         "link": "order-items.html",
@@ -69,7 +69,7 @@
         "id": 8,
         "title": "Kitty Cat Mat",
         "category": "Accessories",
-        "image": "/assets/images/Product8.png",
+        "image": "assets/images/Product8.png",
         "price": "15.00",
         "link": "order-items.html",
         "rating": "2"
@@ -78,7 +78,7 @@
         "id": 9,
         "title": "Llama Bath Mat",
         "category": "Accessories",
-        "image": "/assets/images/Product9.png",
+        "image": "assets/images/Product9.png",
         "price": "40.00",
         "link": "order-items.html",
         "rating": "5"
@@ -87,7 +87,7 @@
         "id": 10,
         "title": "Nao Magnet",
         "category": "Accessories",
-        "image": "/assets/images/Product10.png",
+        "image": "assets/images/Product10.png",
         "price": "10.00",
         "link": "order-items.html",
         "rating": "5"
@@ -96,7 +96,7 @@
         "id": 11,
         "title": "Stinky Sneaker Laptop Skin",
         "category": "Accessories",
-        "image": "/assets/images/Product11.png",
+        "image": "assets/images/Product11.png",
         "price": "30.00",
         "link": "order-items.html",
         "rating": "3"
@@ -105,7 +105,7 @@
         "id": 12,
         "title": "Stonks Water Bottle",
         "category": "Accessories",
-        "image": "/assets/images/Product12.png",
+        "image": "assets/images/Product12.png",
         "price": "20.00",
         "link": "order-items.html",
         "rating": "5"
@@ -114,7 +114,7 @@
         "id": 13,
         "title": "Arisa Throw Pillow",
         "category": "Accessories",
-        "image": "/assets/images/Product13.png",
+        "image": "assets/images/Product13.png",
         "price": "22.00",
         "link": "order-items.html",
         "rating": "4"
@@ -123,7 +123,7 @@
         "id": 14,
         "title": "Ninja Backpack",
         "category": "Accessories",
-        "image": "/assets/images/Product14.png",
+        "image": "assets/images/Product14.png",
         "price": "32.00",
         "link": "order-items.html",
         "rating": "1"
@@ -132,7 +132,7 @@
         "id": 15,
         "title": "Teddy Bear",
         "category": "Clothing",
-        "image": "/assets/images/Product15.png",
+        "image": "assets/images/Product15.png",
         "price": "14.00",
         "link": "order-items.html",
         "rating": "3"
@@ -141,7 +141,7 @@
         "id": 16,
         "title": "Dont let it slide Tote Bag",
         "category": "Accessories",
-        "image": "/assets/images/Product16.png",
+        "image": "assets/images/Product16.png",
         "price": "14.00",
         "link": "order-items.html",
         "rating": "2"
