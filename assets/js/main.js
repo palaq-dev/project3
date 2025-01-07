@@ -21,7 +21,7 @@ window.addEventListener('load', function () {
         opacity: '1'
     }, 1000);
 
-    if (window.location.pathname == "order-items.html") {
+    if (window.location.pathname == "/order-items.html") {
         fetchData("products", populateCart)
     }
 
@@ -57,7 +57,7 @@ window.addEventListener('load', function () {
 // ajax funkcija kojom dohvatam podatke
 function fetchData(fileName, callback) {
     $.ajax({
-        url: "assets/json/" + fileName + ".json",
+        url: "../assets/json/" + fileName + ".json",
         method: "get",
         success: function (data) {
             callback(data)
