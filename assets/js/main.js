@@ -207,12 +207,12 @@ function orderNow() {
     const validationRules = [
         {
             input: document.getElementById("name").value,
-            regex: /^[A-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/,
+            regex: /^[A-ZŠĐĆČ]+(([',. -][a-zšđćčA-ZZŠĐĆČ])?[a-zA-Z]*)*$/,
             errorMessage: "The name is mandatory and must have the first initial capital letter.",
         },
         {
             input: document.getElementById("last-name").value,
-            regex: /^[A-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/,
+            regex: /^[A-ZZŠĐĆČ]+(([',. -][a-zšđćčA-ZŠĐĆČ])?[a-zA-Z]*)*$/,
             errorMessage: "The last name is mandatory and must have the first initial capital letter."
         },
         {
