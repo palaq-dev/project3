@@ -57,7 +57,7 @@ window.addEventListener('load', function () {
 // ajax funkcija kojom dohvatam podatke
 function fetchData(fileName, callback) {
     $.ajax({
-        url: "../assets/json/" + fileName + ".json",
+        url: "/assets/json/" + fileName + ".json",
         method: "get",
         success: function (data) {
             callback(data)
