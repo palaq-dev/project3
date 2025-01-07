@@ -1,0 +1,26 @@
+[
+    {
+        "id": "facebook",
+        "href": "https://www.facebook.com/",
+        "text": "Facebook",
+        "icon": "fab fa-facebook-f fa-lg"
+    },
+    {
+        "id": "twitter",
+        "href": "https://www.twitter.com/",
+        "text": "Twitter",
+        "icon": "fab fa-twitter fa-lg"
+    },
+    {
+        "id": "google",
+        "href": "https://www.google.com/",
+        "text": "Google",
+        "icon": "fab fa-google fa-lg"
+    },
+    {
+        "id": "instagram",
+        "href": "https://www.instagram.com/",
+        "text": "Instagram",
+        "icon": "fab fa-instagram fa-lg"
+    }
+]

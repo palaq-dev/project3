@@ -1,0 +1,26 @@
+[
+    {
+        "id": "home",
+        "url": "index.html",
+        "icon": "fas fa-home fa-lg",
+        "text": "Home"
+    },
+    {
+        "id": "about",
+        "url": "about.html",
+        "icon": "far fa-address-card fa-lg",
+        "text": "About"
+    },
+    {
+        "id": "shop",
+        "url": "shop.html",
+        "icon": "fas fa-shopping-cart fa-lg",
+        "text": "Shop"
+    },
+    {
+        "id": "documentation",
+        "url": "Dokumentacija.pdf",
+        "icon": "fas fa-book fa-lg",
+        "text": "Documentation"
+    }
+]
