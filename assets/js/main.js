@@ -228,32 +228,32 @@ function orderNow() {
     const validationRules = [
         {
             input: document.getElementById("name").value,
-            regex: /^[A-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/,
+            regex: /^[A-Za-zŠĐĆČŽšđćčž]+(?: [A-Za-zŠĐĆČŽšđćčž]+)*$/,
             errorMessage: "The name is mandatory and must have the first initial capital letter.",
         },
         {
             input: document.getElementById("last-name").value,
-            regex: /^[A-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/,
+            regex: /^[A-Za-zŠĐĆČŽšđćčž]+(?: [A-Za-zŠĐĆČŽšđćčž]+)*$/,
             errorMessage: "The last name is mandatory and must have the first initial capital letter."
         },
         {
             input: document.getElementById("email").value,
-            regex: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+            regex: /^[a-zA-Z0-9._%+-]+@(gmail|yahoo|hotmail)\.com$/,
             errorMessage: "Email address is required and must be in the correct format."
         },
         {
             input: document.getElementById("phone").value,
-            regex: /^(?!\s*$).+/,
+            regex: /^\+?[1-9]\d{1,14}$/,
             errorMessage: "Phone number is mandatory!"
         },
         {
             input: document.getElementById("address").value,
-            regex: /^(?!\s*$).+/,
+            regex: /^[A-Za-zŠĐĆČŽšđćčž0-9\s,.-]{5,100}$/,
             errorMessage: "Address is mandatory!"
         },
         {
             input: document.getElementById("credit-card-number").value,
-            regex: /^(?!\s*$).+/,
+            regex: /^\d{4}(\s|-)?\d{4}(\s|-)?\d{4}(\s|-)?\d{4}/,
             errorMessage: "Credit card number is mandatory!"
         }
     ];
