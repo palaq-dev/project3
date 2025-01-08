@@ -243,7 +243,7 @@ function orderNow() {
         },
         {
             input: document.getElementById("phone").value,
-            regex: /^\+?[1-9]\d{1,14}$/,
+            regex: /^\+?[0-9]\d{1,14}$/,
             errorMessage: "Phone number is mandatory!"
         },
         {
